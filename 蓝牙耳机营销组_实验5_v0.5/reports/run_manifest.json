@@ -1,0 +1,69 @@
+{
+  "version": "0.5",
+  "generated_at_utc": "2026-11-03T11:50:19+00:00",
+  "method": "deterministic aggregate metrics over experiment 3 synthetic product data and experiment 4 synthetic review labels",
+  "brand_order": [
+    "声屿",
+    "霁声",
+    "回响社",
+    "云栖音"
+  ],
+  "weights_pct": {
+    "consumer": 30,
+    "product": 25,
+    "price": 20,
+    "heat": 25
+  },
+  "price_bands": [
+    "<100",
+    "100-199",
+    "200-399",
+    "400+"
+  ],
+  "input_files": [
+    {
+      "file": "clean_data.csv",
+      "path": "data\\input\\clean_data.csv",
+      "rows": 320,
+      "sha256": "9a99483a29b4b7bec009368c51259ee342fd794afa40b09a532af1180cfc76bf"
+    },
+    {
+      "file": "reviews_encoded.csv",
+      "path": "data\\input\\reviews_encoded.csv",
+      "rows": 640,
+      "sha256": "6dd9ca04ea1f95ee3d69a9df7068422da8e232791616784563085cba14f1be50"
+    },
+    {
+      "file": "evidence_traceability.csv",
+      "path": "data\\input\\evidence_traceability.csv",
+      "rows": 30,
+      "sha256": "b4c2c4ae477ee2e965905dfecd9db31985918a965eb59142da515aa1e4920a79"
+    }
+  ],
+  "counts": {
+    "products": 320,
+    "reviews": 640,
+    "brands": 4,
+    "review_topic_evidence_rows": 1440,
+    "source_traceability_rows": 30,
+    "directed_competitor_pairs": 12,
+    "weight_scenarios": 5
+  },
+  "limits": [
+    "商品和评论均为模拟数据，不代表真实市场总体或平台份额。",
+    "消费者主题由实验4透明关键词规则编码，需人工抽检。",
+    "竞争威胁指数为规则加权的相对筛选指标，不是因果估计。"
+  ],
+  "outputs": [
+    "reports/brand_summary.csv",
+    "reports/competitor_pairs.csv",
+    "reports/topic_metrics.csv",
+    "reports/evidence_table.csv",
+    "reports/sensitivity_analysis.csv",
+    "reports/price_band_distribution.csv",
+    "reports/product_family_distribution.csv",
+    "reports/conclusion_report.md",
+    "docs/metric_dictionary.csv",
+    "dashboard/competitive_dashboard.html"
+  ]
+}

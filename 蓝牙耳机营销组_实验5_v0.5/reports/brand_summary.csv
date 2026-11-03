@@ -1,0 +1,5 @@
+﻿brand,product_count,review_count,avg_price,min_price,max_price,avg_product_rating,product_rating_n,missing_product_rating_n,review_avg_rating,negative_reviews,negative_review_pct,top_negative_topic,review_count_share_pct,likes_share_pct,favorites_share_pct,brand_heat_share_pct,brand_heat_index
+声屿,82,164,271.44,119.0,469.0,4.36,79,3,3.77,82,50.0,降噪,23.94,24.83,25.94,24.9,94.2
+霁声,78,156,280.79,119.0,469.0,4.42,75,3,3.67,78,50.0,降噪,25.78,24.93,23.03,24.58,92.98
+回响社,78,156,292.08,119.0,469.0,4.43,74,4,3.71,78,50.0,降噪,24.81,22.59,24.85,24.08,91.1
+云栖音,82,164,269.12,119.0,469.0,4.28,77,5,3.84,82,50.0,降噪,25.47,27.65,26.19,26.44,100.0
